@@ -5,6 +5,7 @@
 class Node {
 public:
 	std::string name;
+	// Location
 	std::vector<Interface> interfaces;
 	Node() {};
 	Node(const std::string& _name) : name(_name) {};
